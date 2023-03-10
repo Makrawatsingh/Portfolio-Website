@@ -1,0 +1,292 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Shantell+Sans:ital,wght@1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Lobster&family=Shantell+Sans:ital,wght@1,300&family=Teko:wght@300&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Lobster&family=Shantell+Sans:ital,wght@1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Shantell+Sans:ital,wght@1,300&display=swap');
+
+
+html{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+body{
+    background: rgb(129, 129, 225);
+    margin: 0px;
+    position: relative;
+}
+.nav-bar{
+    /* padding-left: 0px; */
+    background-color: black;
+    color: white;
+    width: auto;
+    display: flex;
+    position:fixed;
+    height: 80px;
+    text-align: center;
+}
+.title{
+    
+    width: 350px;
+    height: 55px;
+    margin-left: 1rem;
+    font-size: 1.25rem;
+    background-color: black;
+    text-align: left;
+    /* vertical-align: middle; */
+    color:white; 
+    margin-bottom:1rem;
+}
+
+
+.container{
+    /* background-color: rgb(217, 1, 1); */
+    width: 700px;
+    display: flex;
+    /* align-content: end; */
+    text-align: right;
+    list-style: none;
+    justify-content :space-between;
+    padding-right: 30px;
+    padding-top: 30px; 
+    padding-left: 5px;
+    height:50px;
+    flex: 1;
+    margin-right: 2rem;
+}
+.element
+{
+    margin-right:2rem;
+}
+.waste{
+    width: 400px;
+}
+
+.container a{
+    
+    text-decoration: none;
+    color: white;
+    font-size:20px;
+}
+
+.container a:hover{
+    font-size:25px ;
+    color:rgb(182, 197, 17);
+}
+.home{
+    background-color: rgb(205, 57, 57);
+    width: auto;
+    height:600px;
+    display: flex;
+}
+.intro{
+    background-color: rgb(197, 216, 160);
+    width: 1000px;
+
+}
+
+.details{
+    object-position: center;
+    background-color:rgb(197, 216, 160);
+    color:black;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    font-size: larger;
+}
+
+.hello{
+    font-family:Shantell Sans;
+    font-size: 50px;
+    margin-top: 0px;
+}
+.pic{
+    background-color:rgb(197, 216, 160);
+    width: 700px;
+}
+
+.profile-pic{
+    background-image:url("Screenshot_20230130_050234_WhatsApp.jpg");
+    background-size: 100% 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width:350px;
+    height:350px;
+    margin-left: 150px;
+    margin-top: 100px;
+    
+    border-radius:80%;
+}
+.about{
+    background-image: url("011 Dusty Grass.png");
+    height: 600px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+.link1{
+    color: aqua;
+}
+.a1{
+    font-weight: bold;
+    font-size: 40px;
+    background-color: none;
+    color: rgb(92, 12, 12);
+    margin-top: 60px;
+    margin-left:50px;
+    text-decoration: underline;
+
+}
+
+.a2{
+    margin-left: 3rem;
+    background-color: rgb(101, 101, 101);
+    margin-top: 3rem;
+    font-size: 2rem;
+    margin-right: 3rem;
+    color:aliceblue;
+    padding-left: 2rem;
+}
+
+.a2 a:hover{
+    color:chocolate;
+}
+.projects{
+    background-color: none;
+    display:flex;    
+    height: 600px;
+    width: auto;
+    /* align-items: center; */
+    background-image: url("istockphoto-1308415974-170667a.jpg");
+    background-size: 100% 100%;
+    color: black;
+}
+
+.proj{
+    font-family: Gloock ;
+        font-weight: bold;
+        font-size:60px;
+        /* margin-bottom: 5px; */
+        margin-top: 2.5rem;     
+        margin-left: 2.5rem;
+        text-decoration: underline;
+      
+}
+.kgp{
+    font-family: Teko;
+    font-size: 30px;
+}
+.update {
+    
+    
+    height:10rem;
+    
+    margin-top: 200px;
+    margin-left: 45px;
+    text-align: center;
+    padding-top: 25px;
+    vertical-align:bottom;
+    font-size: 6rem;
+    /* display: flexbox; */
+}
+.education{
+    background-image:url("istockphoto-937025430-170667a.jpg");
+    background-size: 100% 100%;
+    height: 650px;
+    /* padding-top:3rem; */
+    padding-left:3rem;
+    width: auto;
+}
+
+
+.Collegedetails{
+    font-size: 30px;
+    margin-left: 4rem;
+    /* padding-bottom: 2rem; */
+}
+.contact{
+    background-image:url("depositphotos_151582618-stock-photo-abstract-blue-color-smooth-gradient.jpg");
+    background-size: 100% 100%;
+    height: 600px;
+    width: auto;
+}
+
+.edu {
+    font-family: Gloock ;
+        font-weight: bold;
+        font-size:60px;
+        padding-top: 2rem;
+        /* margin-bottom: 5px; */
+        /* margin-top: 1rem; */
+        margin-left: 2rem;
+        text-decoration: underline;
+}
+.main1{
+    margin-left: 2rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+.college{
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.number{
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.details0{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+    align-items: center;
+    justify-content: space-between;
+    width: 800px;
+    margin-left: 23rem;
+
+}
+.details1{
+    background-color: black;
+    border-radius: 1.5rem;
+    width: 150px;
+    height: 150px;
+    color: aliceblue;
+    text-align: center;
+}
+.details2{
+    background-color: black;
+    border-radius: 1.5rem;
+    width: 150px;
+    height: 150px;
+    color: aliceblue;
+    text-align: center;
+    
+}
+.details3{
+    background-color: black;
+    border-radius: 1.5rem;
+    width: 150px;
+    height: 150px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.middle{
+    justify-content: center;
+    margin-top: 2rem;
+    vertical-align: middle;
+}
+
+img{
+    width: 60%;
+    height: auto;
+    
+}
